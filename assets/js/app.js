@@ -213,6 +213,12 @@ $.getJSON("data/dare.geojson", function (data) {
   subwayLines.addData(data);
 });
 
+
+$.getJSON("data/vias_romanas_Castra.geojson", function (data) {
+  pointsOne.addData(data);
+});
+
+
 /* Single marker cluster layer to hold all clusters */
 var markerClusters = new L.MarkerClusterGroup({
   spiderfyOnMaxZoom: true,
