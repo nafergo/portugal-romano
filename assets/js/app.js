@@ -209,7 +209,7 @@ var subwayLines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("data/subways.geojson", function (data) {
+$.getJSON("data/dare.geojson", function (data) {
   subwayLines.addData(data);
 });
 
